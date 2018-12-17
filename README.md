@@ -14,11 +14,13 @@ The high level idea is to use an autoencoder with a a siamese auxillary loss
   the need for a projection step or refinement of the space through a 
   secondary clustering mechanism. 
   
-This would have an advantage of existing techniques for extracting nerve complexes 
+This would have an advantage over existing techniques for extracting nerve complexes 
 in that the sizes and shapes of these microclusters would be adaptive rather
  than bound to grids in a projection space. It would also reduce the noise 
  introduced by arbitrary grid partitions and separate clustering schemes 
- per bin. Current obstacle is devising a scheme that 
+ per bin. The downside would be that tuning would be less direct, since users would
+ need to control hyperparameters like regularization strength and layer/neuron
+ counts rather than parameters that directly tweak the space. Current obstacle is devising a scheme that 
   adjusts for data sets with different densities without heavy hyperparameter tuning.
 
 ## Examples
