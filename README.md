@@ -23,8 +23,15 @@ in that the sizes and shapes of these microclusters would be adaptive rather
 
 ## Examples
 
+Nodes represent sets of points. Edges represent points shared between the sets 
+corresponding to nodes. 
+
 !["Coil20"](images/coil.png)
-*Fig 1: Learned nerve representation of COIL20 dataset*
+*Fig 1: Learned nerve representation of COIL20 dataset. Clear cyclic patterns 
+reflect the rotating objects. Rectangular objects seem to get picked up better
+as radially symmetric objects tend to get collapsed to a point.*
 
 !["mnist"](images/mnist.png)
-*Fig 2: Learned nerve representation of MNIST*
+*Fig 2: Learned nerve representation of MNIST. Using similar parameters as COIL,
+MNIST doesn't break into clusters. However, the relationships between the classes
+are clearly visible. *
