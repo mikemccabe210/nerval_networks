@@ -34,4 +34,4 @@ as radially symmetric objects tend to get collapsed to a point.*
 !["mnist"](images/mnist.png)
 *Fig 2: Learned nerve representation of MNIST. Using similar parameters as COIL,
 MNIST doesn't break into clusters. However, the relationships between the classes
-are clearly visible. *
+are clearly visible.*
