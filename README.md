@@ -23,8 +23,8 @@ in that the sizes and shapes of these microclusters would be adaptive rather
 
 ## Examples
 
-Nodes represent sets of points. Edges represent points shared between the sets 
-corresponding to nodes. 
+In the nerve complex graph, nodes represent sets of points. Edges represent the existence of an
+intersection between the two sets.
 
 !["Coil20"](images/coil.png)
 *Fig 1: Learned nerve representation of COIL20 dataset. Clear cyclic patterns 
